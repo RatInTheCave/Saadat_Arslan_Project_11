@@ -3,7 +3,7 @@ package Complex_Project;
 public class Item_Class {
 
 
-    public Item_Class(String newName, String newColor, int newBaseSize, boolean newHasVarnish) {
+        public Item_Class(String newName, String newColor, int newBaseSize, boolean newHasVarnish) {
         color = newColor;
         name = newName;
         BaseSize = newBaseSize;
@@ -21,7 +21,7 @@ public class Item_Class {
     }
 
     public String getStringForExport() {
-        String BreakSymbol = " ";
+        String BreakSymbol = ";";
         return getName() + BreakSymbol + getColor() + BreakSymbol + getBaseSize() + BreakSymbol + Varnish() + BreakSymbol;
 
     }
