@@ -1,4 +1,1 @@
-fisrt;black;12;varnish;
-second;white;13;no varnish;
-third;purple;14;varnish;
-fourth;blue;15;no varnish;
+
